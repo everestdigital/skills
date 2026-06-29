@@ -1,0 +1,16 @@
+{
+  "name": "exa-market-research",
+  "version": "1.0.0",
+  "description": "Claude Code skill for market research targeting micro-businesses, artisans, and local shops — powered by Exa API",
+  "type": "module",
+  "scripts": {
+    "competitors": "node scripts/competitor-profile.js",
+    "prospects": "node scripts/prospect-discovery.js",
+    "trends": "node scripts/trend-monitoring.js",
+    "enrich": "node scripts/data-enrichment.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "exa-js": "^1.0.0"
+  }
+}
